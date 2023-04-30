@@ -1,0 +1,28 @@
+
+.demo-layout-transparent {
+    background: url('../6-tareas/assets-framework/sky.jpg') center / cover;
+  }
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+    color: white;
+  }
+  .demo-card-wide.mdl-card {
+    width: 512px;
+    margin: 60px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../6-tareas/assets-framework/svt.jpg') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+  .demo-list-item {
+    width: 300px;
+  }
+  .mdl-layout__content {
+    text-align: justify;
+  }
