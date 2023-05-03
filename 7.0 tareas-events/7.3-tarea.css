@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(115, 23, 23);
+}
+img{
+    width: 300px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px #531717;
+}
+img:hover{
+    scale: 1.01;
+    transition: 500ms;
+}
